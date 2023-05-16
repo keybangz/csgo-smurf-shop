@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-image: url("../public/header.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    background-image: url("../public/header.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.carousel {
+  display: inline-flex;
+  overflow-x: hidden;
+  /*  scroll snap is a great feature which will center the image on snap on touch screen devices  */
+  scroll-snap-type: x mandatory;
+  /* all below will hide the scrollbar on all browsers.    */
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
