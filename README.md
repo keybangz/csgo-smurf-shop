@@ -5,11 +5,13 @@ I made this site originally under private commission, since it was never complet
 It uses Sanity for item information to sell on the site, and also was originally setup for Stripe.JS, however I did not end up finishing that.
 
 Stack:
-NodeJS (14.0)
-NextJS
-Tailwind
-Sanity
-Stripe
+- NodeJS (14.0)
+- NextJS
+- Tailwind
+- Sanity
+- Stripe
+
+## Preview Images
 
 ![image](https://github.com/cigzag/csgo-smurf/assets/23132897/837e57d4-9c5a-418e-bd39-0bfea0c91021)
 
@@ -19,6 +21,9 @@ Stripe
 
 ![image](https://github.com/cigzag/csgo-smurf/assets/23132897/f5880e1c-47fe-4be5-9e94-d56cfc72c92f)
 
+![image](https://github.com/cigzag/csgo-smurf-daddy/assets/23132897/11d20f40-daff-4e72-b668-ed58599321f1)
+
 ## TODO
 - Finish cart design
-- Finish Stripe JS implementation
+- Finish Stripe JS implementation 
+- Finish routing checkout
