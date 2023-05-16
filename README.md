@@ -1,4 +1,4 @@
-## CSGO Account website base
+## CSGO Account Website Base
 
 I made this site originally under private commission, since it was never completed I had finally decided to release the source publicly.
 
