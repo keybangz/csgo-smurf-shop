@@ -27,3 +27,6 @@ Stack:
 - Finish cart design
 - Finish Stripe JS implementation 
 - Finish routing checkout
+
+## POTENTIONAL
+- Rewrite with SvelteKit + Firebase for a smoother & better way to handle account listings. (Current issue right now is that Sanity does not provide on the fly requests for when an account has been sold, and this means the same account can be sold to multiple people in the span of the update time.)
