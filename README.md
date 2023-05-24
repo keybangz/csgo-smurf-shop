@@ -4,6 +4,9 @@ I made this site originally under private commission, since it was never complet
 
 It uses Sanity for item information to sell on the site, and also was originally setup for Stripe.JS, however I did not end up finishing that.
 
+## LIVE DEMO
+https://csgo-smurf.vercel.app/
+
 Stack:
 - NodeJS (14.0)
 - NextJS
