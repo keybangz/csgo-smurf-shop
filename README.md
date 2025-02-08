@@ -1,8 +1,7 @@
 ## CSGO Account Website Base
 
-I made this site originally under private commission, since it was never completed I had finally decided to release the source publicly.
-
-It uses Sanity for item information to sell on the site, and also was originally setup for Stripe.JS, however I did not end up finishing that.
+I made this site originally under private commission, the original commisioner did not end up using the project and development was halted. 
+It is now public and serves as a stepping stone in learning full-stack development.
 
 ## LIVE DEMO
 https://csgo-smurf.vercel.app/
